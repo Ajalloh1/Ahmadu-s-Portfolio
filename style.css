@@ -164,10 +164,18 @@ body {
   }
 button{
   max-width: fit-content;
-  margin-left: 20px;
+  margin-left: 40px;
+  border-color: yellow;
 }
   p i{
     color:white;
+  }
+  input{
+    margin-left: 30px;
+    border-color: yellow;
+  }
+  textarea{
+    border-color: yellow;
   }
     footer {
       padding: 20px;

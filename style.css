@@ -16,6 +16,14 @@ THEN I am presented with a responsive layout that adapts to my viewport */
   --mycolor: orange;
   background-color: brown;
 }
+.image1{
+  position: fixed;
+  top: 0;
+}
+.img1{
+  height: 700px;
+  width: 900px;
+}
 
 body {
     display:flex;

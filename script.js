@@ -13,7 +13,7 @@ img1.addEventListener("click", function () {
     imageBox.appendChild(image);
 })
 
-img1.addEventListener("click", function () {
+img4.addEventListener("click", function () {
     console.log("here")
     var imageBox = document.createElement("div");
     var image = document.createElement("img");

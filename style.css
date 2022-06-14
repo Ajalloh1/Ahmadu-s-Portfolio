@@ -1,193 +1,200 @@
-/* GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport */
-:root{
+
+:root {
   --commonfontsize: arial;
   --mycolor: orange;
   background-color: brown;
 }
-.image1{
+
+.image1 {
   position: fixed;
   top: 0;
 }
-.img1{
+
+.img1 {
   height: 700px;
   width: 900px;
 }
 
 body {
-    display:flex;
-    flex-direction: column;
-    font-size: 20px;
-    line-height: 1;
-    background-color: brown;
-    font-family: serif;
-    background-image: url(image2.jpeg);
-  }
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 1;
+  background-color: brown;
+  font-family: serif;
+  background-image: url(image2.jpeg);
+}
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #13293d;
-    color: black;
-    font-size: 100%;
-    margin-top: -20px;
-    margin-left: 1px;
-  }
-  img{
-    margin-left: 20px;
-  }
-  h1{
-    font-size: 40px;
-    line-height: 1.5;
-  }
-  h2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    line-height: 1.5;
-    max-width: fit-content;
-    margin-top: 5px;
-    margin-left: 20px;
-    color: white;
-  }
-  nav li a{
-    color: white;
-  }
-  #flex.container{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 1 2 5px;
-    border-radius: 10px;
-    border: white dashed;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: black;
+  font-size: 100%;
+  margin-top: -20px;
+  margin-left: 1px;
+}
 
-  h4 {
-    position: relative;
-    left: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 1px;
-    border: 2px green solid;
-    max-width: 50%;
-    margin-top: 50px;
-    height: 30px;
-    background-color: var(--mycolor);
-    box-shadow: 0px 0px 10px 10px var(--mycolor);
-  }
- 
-  span {
-    background-color: brown;
-    text-align: center;
-    display: inline-block;
-    width: 500px;
-    border: white dashed;
-    font-size: 20px;
-    font-family: serif;
-    height: 200px;
-    border-radius: 16px;
-    margin-top: 30px;
-    margin-left: 75px;
-    border-color: greenyellow;
-    padding: 20px;
-    background-image: url(image3.jpeg);
-  }
-  img {
-    margin-top: -60px;
-  }
+img {
+  margin-left: 20px;
+  margin-top: -60px;
+}
 
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: auto;
-      background-color: brown;
-      color: white;
-      background-image: url(image2.jpeg);
-  }
-  p{
-    margin-left: 20px;
-    color: white;
-  }
-  h3,li{
-    margin-left: 20px;
-  }
-  .box{
-    border-style: solid;
-    border-color: green;
-    border-radius: 10px;
-    background-color: var(--mycolor);
-    box-shadow: 0px 0px 10px 10px var(--mycolor);
-    margin-top: 10px;
-    position: relative;
-  }
-  .tan{
-    position: relative;
-    color: black;
-    left: 900px;
-    border-style: solid;
-    border-style:solid;
-    border-radius: 10px;
-    border-color: green;
-    background-color: var(--mycolor);
-    box-shadow: 0px 0px 10px 10px var(--mycolor);
-  }
-  nav ul{
-    list-style: none;
-    margin: 5 6px;
-    margin-left: 2px;
-    padding: 0;
-    color: white;
-  }
-  nav li {
-     display: inline-block;
-     padding: 4px 5px;
-     font-size: 20px;
-     margin-top: 30px;
-  }
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
 
-  div h4{
-    position: relative;
-    left: 50px;
-    top: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  ol li{
-    color: white;
-  }
-  aside{
-    color: white;
-    margin-left: 20px;
-  }
-button{
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  line-height: 1.5;
+  max-width: fit-content;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: white;
+}
+
+nav li a {
+  color: white;
+}
+
+#flex.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1 2 5px;
+  border-radius: 10px;
+  border: white dashed;
+}
+
+h4 {
+  position: relative;
+  left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1px;
+  border: 2px green solid;
+  max-width: 50%;
+  margin-top: 50px;
+  height: 30px;
+  background-color: var(--mycolor);
+  box-shadow: 0px 0px 10px 10px var(--mycolor);
+}
+
+span {
+  background-color: brown;
+  text-align: center;
+  display: inline-block;
+  width: 500px;
+  border: white dashed;
+  font-size: 20px;
+  font-family: serif;
+  height: 200px;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-left: 75px;
+  border-color: greenyellow;
+  padding: 20px;
+  background-image: url(image3.jpeg);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: brown;
+  color: white;
+  background-image: url(image2.jpeg);
+}
+
+p {
+  margin-left: 20px;
+  color: white;
+}
+
+h3,
+li {
+  margin-left: 20px;
+}
+
+.box {
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px;
+  background-color: var(--mycolor);
+  box-shadow: 0px 0px 10px 10px var(--mycolor);
+  margin-top: 10px;
+  position: relative;
+}
+
+.tan {
+  position: relative;
+  color: black;
+  left: 900px;
+  border-style: solid;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: green;
+  background-color: var(--mycolor);
+  box-shadow: 0px 0px 10px 10px var(--mycolor);
+}
+
+nav ul {
+  list-style: none;
+  margin: 5 6px;
+  margin-left: 2px;
+  padding: 0;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  padding: 4px 5px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+div h4 {
+  position: relative;
+  left: 50px;
+  top: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol li {
+  color: white;
+}
+
+aside {
+  color: white;
+  margin-left: 20px;
+}
+
+button {
   max-width: fit-content;
   margin-left: 40px;
   border-color: yellow;
 }
-  p i{
-    color:white;
-  }
-  input{
-    margin-left: 30px;
-    border-color: yellow;
-  }
-  textarea{
-    border-color: yellow;
-  }
-    footer {
-      padding: 20px;
-      text-align: center;
-      background: #13293d;
-      color: #fff;
-    }
+
+p i {
+  color: white;
+}
+
+input {
+  margin-left: 30px;
+  border-color: yellow;
+}
+
+textarea {
+  border-color: yellow;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}

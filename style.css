@@ -1,20 +1,9 @@
 
 :root {
   --commonfontsize: arial;
-  --mycolor: orange;
-  background-color: brown;
+  --mycolor: lightgreen;
+  background-color: lightgreen;
 }
-
-.image1 {
-  position: fixed;
-  top: 0;
-}
-
-.img1 {
-  height: 700px;
-  width: 900px;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -22,7 +11,7 @@ body {
   line-height: 1;
   background-color: brown;
   font-family: serif;
-  background-image: url(image2.jpeg);
+  background-image: url(bk1.jpeg);
 }
 
 header {
@@ -36,7 +25,6 @@ header {
   margin-top: -20px;
   margin-left: 1px;
 }
-
 img {
   margin-left: 20px;
   margin-top: -60px;
@@ -55,7 +43,7 @@ h2 {
   max-width: fit-content;
   margin-top: 5px;
   margin-left: 20px;
-  color: white;
+  color: blue;
 }
 
 nav li a {
@@ -98,21 +86,29 @@ span {
   margin-left: 75px;
   border-color: greenyellow;
   padding: 20px;
-  background-image: url(image3.jpeg);
+  position: wrap;
 }
-
+.webpic{
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  width: 500px;
+  height: 200px;
+  position:absolute;
+  margin-top: 38px;
+  margin-left: 75px;
+}
 main {
   display: flex;
   flex-wrap: wrap;
   margin-top: auto;
   background-color: brown;
-  color: white;
-  background-image: url(image2.jpeg);
+  color: black;
+  background-image: url(bk1.jpeg);
 }
-
 p {
   margin-left: 20px;
-  color: white;
+  color: darkblue;
 }
 
 h3,
@@ -122,22 +118,21 @@ li {
 
 .box {
   border-style: solid;
-  border-color: green;
+  border-color: orange;
   border-radius: 10px;
   background-color: var(--mycolor);
   box-shadow: 0px 0px 10px 10px var(--mycolor);
   margin-top: 10px;
   position: relative;
 }
-
 .tan {
   position: relative;
-  color: black;
+  color: darkblue;
   left: 900px;
   border-style: solid;
   border-style: solid;
   border-radius: 10px;
-  border-color: green;
+  border-color: orange;
   background-color: var(--mycolor);
   box-shadow: 0px 0px 10px 10px var(--mycolor);
 }
@@ -147,7 +142,7 @@ nav ul {
   margin: 5 6px;
   margin-left: 2px;
   padding: 0;
-  color: white;
+  color: darkblue;
 }
 
 nav li {
@@ -165,11 +160,11 @@ div h4 {
 }
 
 ol li {
-  color: white;
+  color: darkblue;
 }
 
 aside {
-  color: white;
+  color: darkblue;
   margin-left: 20px;
 }
 
@@ -180,7 +175,7 @@ button {
 }
 
 p i {
-  color: white;
+  color: darkblue;
 }
 
 input {
@@ -196,5 +191,7 @@ footer {
   padding: 20px;
   text-align: center;
   background: #13293d;
-  color: #fff;
+}
+footer p{
+  color: white;
 }

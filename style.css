@@ -11,7 +11,7 @@ body {
   line-height: 1;
   background-color: brown;
   font-family: serif;
-  background-image: url(bk1.jpeg);
+  background-image: url(bk2.jpeg);
 }
 
 header {
@@ -43,7 +43,7 @@ h2 {
   max-width: fit-content;
   margin-top: 5px;
   margin-left: 20px;
-  color: blue;
+  color: white;
 }
 
 nav li a {
@@ -104,11 +104,11 @@ main {
   margin-top: auto;
   background-color: brown;
   color: black;
-  background-image: url(bk1.jpeg);
+  background-image: url(bk2.jpeg);
 }
 p {
   margin-left: 20px;
-  color: darkblue;
+  color: white;
 }
 
 h3,
@@ -160,11 +160,11 @@ div h4 {
 }
 
 ol li {
-  color: darkblue;
+  color: white;
 }
 
 aside {
-  color: darkblue;
+  color: white;
   margin-left: 20px;
 }
 
@@ -175,7 +175,7 @@ button {
 }
 
 p i {
-  color: darkblue;
+  color: white;
 }
 
 input {
